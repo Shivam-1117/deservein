@@ -1,0 +1,78 @@
+body{
+  font-family: 'Noto Sans JP', sans-serif;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+  background: url("img/ntwrk.svg") rgba(5, 60, 73, 0.7);
+  background-blend-mode: multiply;
+}
+.container{
+  display: inline-block;
+  background-color: #0d98ba;
+  border-left: 2em solid #0d98ba;
+  border-right: 4em solid #0d98ba;
+  border-top: 0em solid #0d98ba;
+  border-right: 4em solid #0d98ba;
+  border-radius: 4em;
+  box-shadow: 1em 1em 2em .25em rgba(0,0,0,.2);
+  margin-left: 35%;
+  margin-top: 0.5%;
+}
+.container p{
+  color: #fff;
+  font-size: 13px;
+  text-align: right;
+}
+.button:hover{
+  box-shadow: 0 3px 3px 0 lightseagreen, 0 3px 3px 0 lightseagreen;
+}
+input[type = submit]{
+  cursor:pointer;
+}
+input[type = text]{
+  font-family: 'Noto Sans JP', sans-serif;
+}
+input[type = password]{
+  font-family: 'Noto Sans JP', sans-serif;
+}
+h1{
+  color: #fff;
+  margin-left: 44%;
+  margin-top: 10%;
+}
+h2{
+  text-align: center;
+  color: #fff;
+}
+table{
+  margin: 4%;
+}
+table th {
+  color: #fff;
+  font-weight: 300;
+  font-size: 13px;
+}
+.box{
+  outline:none;
+  border: 0.1em solid #f0ffff;
+  border-radius: 1em;
+  height: 40px;
+}
+.button{
+  outline: none;
+  display: inline-block;
+  font-weight: 800;
+  font-family: 'Noto Sans JP', sans-serif;
+  background-color: lightseagreen;
+  color: #fff;
+  border: 0.1em solid #f0ffff;
+  border-radius: 1em;
+  text-align: center;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 182px;
+  padding-right: 182px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-bottom: 0px;
+}
